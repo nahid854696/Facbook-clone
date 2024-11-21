@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+.img1{
+    height: 120px;
+}
+.input{
+    display: grid;
+    grid-row-start: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.email{
+    margin-bottom: 5px;
+    width: 300px;
+    height: 35px;
+    background: rgba(122, 119, 119, 0.219);
+    border: none;
+    border-radius: 10px;
+}
+.pass {
+    margin-bottom: 25px;
+    margin-top: 5px;
+    height: 35px;
+    background: rgba(122, 119, 119, 0.219);
+    border: none;
+    border-radius: 10px;
+}
+
+.login_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    margin-left: 10px;
+    height: 28px;
+    border: none;
+    background-color: #0866FF;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.new_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 28px;
+    border: none;
+    background-color: #0866FF;
+    color:white;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.show_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: red;
+}
+
+.Forget{
+    color: green;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
